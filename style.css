@@ -3,7 +3,7 @@ body{
     background-color: rgb(255, 255, 255);    
 }
 html{
-    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 /*All End*/
@@ -46,6 +46,14 @@ html{
 /*Header End*/
 
 /*Landing Start*/
+#sec-landing{
+    background-image: url("/img//Coding2.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: auto;
+    margin: -10px;
+}
 .info-container{
     position: relative;
     margin-top: 100px;
@@ -55,10 +63,13 @@ html{
 .info-container .info-item-home img{
     height: 40px;
     margin-left: 1px;
+    position: relative;
+    display: inline-block;
+    padding-right: 5px;
 }
 .info-container .info-item-home h1{
-    font-size: 50px;
-    line-height: 0.7;
+    font-size: 60px;
+    line-height: 0.5;
 }
 /*Landing End*/
 
