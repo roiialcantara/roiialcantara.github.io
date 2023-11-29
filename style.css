@@ -19,6 +19,7 @@ html{
     background-color: rgb(44, 44, 44);
     color: white;
     padding: 1px;
+    opacity: 50%;
 }
 #sec-header h1{
     margin-top: 25px;
@@ -41,11 +42,22 @@ html{
     color: rgb(0, 202, 0);
 }
 #sec-header a:active {
-    color: rgb(0, 202, 0);
+    color: rgb(255, 0, 0);
 }
 /*Header End*/
 
 /*Landing Start*/
+.info-container{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: gray;
+}
+.info-container .info-item-home img{
+    height: 40px;
+    margin-left: 1px;
+}
 /*Landing End*/
 
 /*About Start*/
