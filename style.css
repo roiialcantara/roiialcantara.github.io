@@ -1,7 +1,6 @@
 /*All*/
 body{
-    background-color: rgb(255, 255, 255);
-    
+    background-color: rgb(255, 255, 255);    
 }
 html{
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
@@ -52,11 +51,14 @@ html{
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 50px;
-    background-color: gray;
 }
 .info-container .info-item-home img{
     height: 40px;
     margin-left: 1px;
+}
+.info-container .info-item-home h1{
+    font-size: 50px;
+    line-height: 0.7;
 }
 /*Landing End*/
 
