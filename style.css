@@ -47,20 +47,23 @@ html{
 
 /*Landing Start*/
 #sec-landing{
-    background-image: url("/img/Hexagon.jpg");
+    background-image: url("/img/darkpattern.jpg");
     background-position: top center;
     background-repeat: no-repeat;
     object-fit: contain;
-    height: 450px;
+    height: 500px;
     margin: -10px;
     margin-top: 60px;
     margin-bottom: 100px;
     padding: 50px;
+    overflow: hidden;
 }
 .info-container .info-item-home img{
     height: 40px;
     margin-left: 1px;
     position: relative;
+    top: 30px;
+    left: 80px;
     display: inline-block;
     padding-right: 5px;
     z-index: 1;
@@ -68,10 +71,21 @@ html{
 .info-container .info-item-home h1{
     font-size: 60px;
     line-height: 0.5;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    color: white;
 }
 .info-container .info-item-home p{
-    
+    position: relative;
+    font-size: 20px;
+    top: 50px;
+    left: 80px;
+    line-height: 2;
+    color: white;
+
 }
+
 /*Landing End*/
 
 /*About Start*/
