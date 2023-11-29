@@ -47,16 +47,13 @@ html{
 
 /*Landing Start*/
 #sec-landing{
-    background-image: url("/img//Coding2.jpg");
+    background-image: url("/img/Hexagon.jpg");
     background-position: top center;
     background-repeat: no-repeat;
-    object-fit: cover;
-    height: auto;
+    object-fit: contain;
+    height: 450px;
     margin: -10px;
-}
-.info-container{
-    position: relative;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 100px;
     padding: 50px;
 }
@@ -70,6 +67,9 @@ html{
 .info-container .info-item-home h1{
     font-size: 60px;
     line-height: 0.5;
+}
+.info-container .info-item-home p{
+    
 }
 /*Landing End*/
 
