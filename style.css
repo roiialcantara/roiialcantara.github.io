@@ -22,14 +22,14 @@ html{
 }
 #sec-header h1{
     margin-top: 25px;
-    margin-left: 20px;
+    margin-left: 150px;
 }
 #sec-header li{
     list-style: none;
     display: inline;
     position: relative;
     top: -44px;
-    right: -670px; 
+    right: -700px; 
     padding: 5px;
 }
 #sec-header a{
@@ -51,41 +51,40 @@ html{
     background-position: top center;
     background-repeat: no-repeat;
     object-fit: contain;
-    height: 500px;
-    margin: -10px;
-    margin-top: 60px;
+    height: 380px;
+    width: auto;
+    margin: -8px;
+    margin-top: -10px;
     margin-bottom: 100px;
-    padding: 50px;
-    overflow: hidden;
+    padding: 140px;
 }
-.info-container .info-item-home img{
-    height: 40px;
-    margin-left: 1px;
-    position: relative;
-    top: 30px;
-    left: 80px;
-    display: inline-block;
-    padding-right: 5px;
-    z-index: 1;
-}
+
 .info-container .info-item-home h1{
     font-size: 60px;
     line-height: 0.5;
     position: relative;
-    top: 80px;
+    top: 50px;
     left: 80px;
     color: white;
 }
 .info-container .info-item-home p{
     position: relative;
     font-size: 20px;
-    top: 50px;
-    left: 80px;
+    top: 20px;
+    left: 81px;
     line-height: 2;
     color: white;
-
 }
-
+.info-container .info-item-home img{
+    height: 40px;
+    margin-left: 1px;
+    position: relative;
+    top: 10px;
+    left: 80px;
+    display: inline-block;
+    padding-right: 5px;
+    z-index: 1;
+}
 /*Landing End*/
 
 /*About Start*/
