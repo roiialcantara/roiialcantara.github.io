@@ -133,7 +133,7 @@ html{
 /*Skills Start*/
 #sec-skills {
     margin-top: 250px;
-    background-color: gray;
+    background-color: rgb(194, 194, 153);
     background-repeat: no-repeat;
     background-position:fixed;
     background-size: cover;
@@ -142,8 +142,12 @@ html{
 }
 .info-item-skills h1{
     text-align: center;
-    margin-top: 5px;
+    padding-top: 25px;
     font-size: 40px;
+}
+.info-item-skills img{
+    height: 50px;
+    object-fit:cover;
 }
 
 /* Skills End*/
