@@ -47,9 +47,10 @@ html{
 
 /*Landing Start*/
 #sec-landing{
-    background-image: url("/img/darkpattern.jpg");
-    background-position: top center;
+    background-position:center;
     background-repeat: no-repeat;
+    background-position:fixed;
+    background-size: cover;
     object-fit: contain;
     height: 380px;
     width: auto;
