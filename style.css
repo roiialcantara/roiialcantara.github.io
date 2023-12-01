@@ -56,7 +56,7 @@ html{
     width: auto;
     margin: -8px;
     margin-top: -10px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     padding: 140px;
 }
 
@@ -66,7 +66,7 @@ html{
     position: relative;
     top: 50px;
     left: 80px;
-    color: white;
+    color: black;
 }
 .info-container .info-item-home p{
     position: relative;
@@ -74,7 +74,7 @@ html{
     top: 20px;
     left: 81px;
     line-height: 2;
-    color: white;
+    color: black;
 }
 .info-container .info-item-home img{
     height: 40px;
@@ -89,6 +89,26 @@ html{
 /*Landing End*/
 
 /*About Start*/
+.info-item-about h1{
+    text-align: center;
+    font-size: 40px;
+}
+.info-item-about img{
+    height: 300px;
+    width: 260px;
+    object-fit: fill;
+    border-radius: 30px;
+    float: left;
+    margin-left: 200px;
+    margin-right: 100px;
+
+}
+.info-item-about p{
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 500px;
+    
+}
 /*About End*/
 
 /*Skills Start*/
