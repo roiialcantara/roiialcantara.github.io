@@ -125,12 +125,27 @@ html{
     line-height: 2;
     padding-bottom: 3px;
 }
+.info-item-about span{
+    font-weight: bold;
+}
 /*About End*/
 
 /*Skills Start*/
 #sec-skills {
     margin-top: 250px;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -8px;
 }
+.info-item-skills h1{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;
+}
+
 /* Skills End*/
 
 /*Education Start*/
