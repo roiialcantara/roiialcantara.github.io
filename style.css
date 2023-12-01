@@ -52,12 +52,12 @@ html{
     background-position:fixed;
     background-size: cover;
     object-fit: contain;
-    height: 380px;
+    height: 350px;
     width: auto;
     margin: -8px;
     margin-top: -10px;
-    margin-bottom: 20px;
-    padding: 140px;
+    margin-bottom: 25px;
+    padding: 155px;
 }
 
 .info-container .info-item-home h1{
@@ -89,29 +89,48 @@ html{
 /*Landing End*/
 
 /*About Start*/
+#sec-about{
+    margin-top: 37px;
+}
 .info-item-about h1{
     text-align: center;
+    margin-top: 5px;
     font-size: 40px;
 }
-.info-item-about img{
-    height: 300px;
-    width: 260px;
-    object-fit: fill;
-    border-radius: 30px;
-    float: left;
-    margin-left: 200px;
-    margin-right: 100px;
+.info-item-about h2{
+    margin-top: 100px;
+    text-align: left;
+    position: relative;
+}
+.info-item-about h3{
+    font-size: 15px;
+}
+.info-item-about h4{
+    margin-bottom: 200px;
 
 }
+.info-item-about img{
+    height: 350px;
+    width: 300px;
+    object-fit: fill;
+    border-radius: 25px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 250px;
+    margin-right: 50px;
+}
 .info-item-about p{
-    text-align: center;
-    padding: 100px;
-    margin-bottom: 500px;
-    
+    position: relative;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 3px;
 }
 /*About End*/
 
 /*Skills Start*/
+#sec-skills {
+    margin-top: 250px;
+}
 /* Skills End*/
 
 /*Education Start*/
