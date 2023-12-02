@@ -132,13 +132,13 @@ html{
 
 /*Skills Start*/
 #sec-skills {
-    margin-top: 250px;
     background-color: rgb(194, 194, 153);
     background-repeat: no-repeat;
     background-position:fixed;
     background-size: cover;
     margin-left: -10px;
     margin-right: -8px;
+    margin-top: 250px;
 }
 .skills-container h1{
     text-align: center;
@@ -167,10 +167,8 @@ html{
 }
 .skills-card h2{
     text-align: center;
+    font-size: 15px;
 }
-
-
-
 /* Skills End*/
 
 /*Education Start*/
