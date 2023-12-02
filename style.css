@@ -140,15 +140,36 @@ html{
     margin-left: -10px;
     margin-right: -8px;
 }
-.info-item-skills h1{
+.skills-container h1{
     text-align: center;
     padding-top: 25px;
     font-size: 40px;
 }
-.info-item-skills img{
-    height: 50px;
-    object-fit:cover;
+.skills-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 160px;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    position: relative;
+    left: 250px;
 }
+.skills-card img{
+    height: 55px;
+    object-fit: cover;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.skills-card h2{
+    text-align: center;
+}
+
+
 
 /* Skills End*/
 
