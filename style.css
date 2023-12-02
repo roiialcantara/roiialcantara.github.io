@@ -125,12 +125,61 @@ html{
     line-height: 2;
     padding-bottom: 3px;
 }
+.info-item-about span{
+    font-weight: bold;
+}
 /*About End*/
 
 /*Skills Start*/
 #sec-skills {
-    margin-top: 250px;
+    background-color: #394867;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-top: 200px;
+    padding-bottom: 50px;
 }
+.skills-container h1{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+    color: white;
+}
+.skills-card {
+    background-color: #212A3E;
+    box-shadow: 5px 5px 5px rgba(15, 15, 15, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    width: 160px;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    position: relative;
+    left: 250px;
+    opacity: 85%;
+}
+.skills-card img{
+    height: 55px;
+    object-fit: cover;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.skills-card h2{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.skills-card:hover{
+    opacity: 100%;
+    background-color: #192030;
+    box-shadow: 15px 15px 15px rgba(44, 44, 44, 0.1);
+}
+
+
 /* Skills End*/
 
 /*Education Start*/
