@@ -182,13 +182,13 @@ html{
 
 /*Education Start*/
 #sec-education{
-    margin-bottom: 250px;
+    margin-bottom: 25px;
     background-color: #E3FDFD;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -8px;
     padding-top: 10px;
-    padding-bottom: 110px;
+    padding-bottom: 120px;
 }
 .info-item-education h1{
     text-align: center;
@@ -235,4 +235,12 @@ html{
     opacity: 100%;
 }
 /*Education End*/
+#sec-project h1{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+}
+/*Project Start*/
+
+/*Project End*/
 
