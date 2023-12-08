@@ -417,6 +417,7 @@ html{
     top: 28px;
     left: 290px;
     line-height: 30px;
+    z-index: 1;
 }
 .contact-text a{
     position: relative;
