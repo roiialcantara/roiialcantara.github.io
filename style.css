@@ -323,3 +323,49 @@ html{
   }
 /*Project End*/
 
+/*Experiences Start*/
+#sec-experiences{
+    background-color: #C5E898;
+    margin-top: -33px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-bottom: 25px;
+}
+#sec-experiences h1{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+}
+.exp-card{
+    margin-bottom: 25px;
+    margin-left: 290px;
+    margin-right: 230px;
+    background-color: white;
+    width: 750px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 9px 9px 9px rgba(8, 8, 8, 0.1);
+    opacity: 95%;
+}
+.exp-card img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    float: left;
+    margin-right: 45px;
+}
+.exp-card h2{
+    font-size: 18px;
+    font-style: italic;
+}
+.exp-card h3{
+    font-size: 15px;
+}
+.exp-card p{
+    font-size: 13px;
+}
+.exp-card:hover{
+    box-shadow: 5px 5px 20px -5px rgb(34, 34, 34);
+    opacity: 100%;
+}
+/*Experiences End*/
