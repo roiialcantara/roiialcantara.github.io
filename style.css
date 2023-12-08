@@ -408,7 +408,7 @@ html{
     list-style: none;
     font-size: 13px;
     line-height: 16px;
-    margin-top: -10px;
+    margin-top: -5px;
     margin-bottom: 25px;
     padding-top: 8px;
 }
@@ -417,6 +417,10 @@ html{
     top: 28px;
     left: 290px;
     line-height: 30px;
+}
+.contact-text a{
+    position: relative;
+    top: -10px;
 }
 .card-container {
     position: relative;
